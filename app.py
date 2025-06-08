@@ -3,7 +3,7 @@ import streamlit as st
 st.title("Power Calculator")
 st.write("This is a simple power calculator that can calculate the power of a number.")
 
-n=st.numberinput("Enter a number" , value=1, step=1)
+n=st.number_input("Enter a number" , value=1, step=1)
 
 square=n**2
 cube=n**3
